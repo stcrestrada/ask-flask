@@ -1,0 +1,19 @@
+
+<div class="container">
+    <p>Instances:</p>
+    <div ng-repeat="instance in instances.data track by $index">
+        <div class="row">
+            <div class="col-xs-6 col-md-3">
+                <a href="" class="thumbnail">
+                    {{ instance }}
+                </a>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <a href="#" ng-if="instances.data.length > 0" ng-click="logout()"> Logout</a>
+            <a href="#" ng-if="!instances.data"> Please login to view instances</a>
+        </div>
+    </div>
+</div>

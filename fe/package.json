@@ -1,0 +1,23 @@
+{
+  "name": "fe",
+  "version": "1.0.0",
+  "description": "askFlask",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "angular": "^1.6.4",
+    "angular-ui-router": "^1.0.3",
+    "express": "^4.15.3",
+    "gulp": "^3.9.1",
+    "gulp-connect": "^5.0.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-nodemon": "^2.2.1",
+    "gulp-protractor": "^4.1.0",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1",
+    "request": "^2.81.0"
+  }
+}
