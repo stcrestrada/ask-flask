@@ -3,13 +3,13 @@
 ###Depedencies
 * Inenv installation setup[here](http://github.com/pnegahdar/inenv)
 
-```python
+```shell
     $ pip install inenv
 ```
 
 ### Run python server
 
-```python
+```shell
     $ cd ask-flask
     $ python app.py
 ```
