@@ -1,3 +1,4 @@
 .idea/
 .inenv/
 fe/node_modules
+*.sqlite

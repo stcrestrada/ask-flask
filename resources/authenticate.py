@@ -1,7 +1,6 @@
 from flask import jsonify, Blueprint, session
-from flask_session import Session
 
-from flask_restful import Resource, Api, fields, reqparse, url_for, abort
+from flask_restful import Resource, Api, fields, reqparse, abort
 
 import boto
 
@@ -40,10 +39,6 @@ class Authenticate(Resource):
         else:
             session['key'] = args
             return jsonify({'session': session['key']})
-
-    def delete(self):
-        session.pop('key', None)
-        return '', 200, {'location': url_for('resources.authenticate')}
 
 
 authenticate_api = Blueprint('resources.authenticate', __name__)

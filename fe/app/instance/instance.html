@@ -1,14 +1,26 @@
 
 <div class="container">
-    <p>Instances:</p>
-    <div ng-repeat="instance in instances.data track by $index">
-        <div class="row">
-            <div class="col-xs-6 col-md-3">
-                <a href="" class="thumbnail">
-                    {{ instance }}
-                </a>
-            </div>
-        </div>
+
+
+    <div class="container">
+        <h2>Instances</h2>
+        <p>Table that list AWS instances and their respective regions and states</p>
+        <table class="table">
+            <thead>
+            <tr>
+                <th>Instance</th>
+                <th>Region</th>
+                <th>Status</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr ng-repeat="instance in instances.data track by $index">
+                <td>{{ instance.instance_id }}</td>
+                <td>{{ instance.availability_zone}}</td>
+                <td>{{ instance.instance_state }}</td>
+            </tr>
+            </tbody>
+        </table>
     </div>
     <div class="row">
         <div class="col-md-12">

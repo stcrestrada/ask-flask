@@ -13,6 +13,7 @@ itsdangerous==0.24
 Jinja2==2.9.6
 jmespath==0.9.2
 MarkupSafe==1.0
+peewee==2.10.1
 python-dateutil==2.6.0
 pytz==2017.2
 s3transfer==0.1.10
