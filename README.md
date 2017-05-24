@@ -1,7 +1,8 @@
 #Simple Web Application That Shows AWS Instances
 
 ###Depedencies
-* Inenv installation setup[here](http://github.com/pnegahdar/inenv)
+* Inenv installation setup [here](http://github.com/pnegahdar/inenv)
+* All other dependencies will be installed once python wrapper is initialized
 
 ```shell
     $ pip install inenv
@@ -11,6 +12,8 @@
 
 ```shell
     $ cd ask-flask
+    $ inenv init ask-flask
+    $ inenv ask-flask
     $ python app.py
 ```
 
