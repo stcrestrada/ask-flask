@@ -26,7 +26,7 @@
 
 ####Notes:
 * Visit http://127.0.0.1:3000
-* Configurable Flask Settings are in config.py
+* Configurable Flask Settings are in config.py, i.g. AWS Region
 * You need aws access_key and secret_key to login and view instances.
 
 
